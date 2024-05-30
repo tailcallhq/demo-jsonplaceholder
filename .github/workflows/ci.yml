@@ -13,6 +13,6 @@ jobs:
         with:
           provider: "fly"
           fly-api-token: ${{ secrets.FLY_API_TOKEN }}
-          fly-app-name: "tailcall"
+          fly-app-name: "jsonplaceholder"
           fly-region: "lax"
           tailcall-config: "jsonplaceholder.graphql"
